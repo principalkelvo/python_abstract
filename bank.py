@@ -57,6 +57,7 @@ class Swiss(Bank):
     def __init__(self, bal=1000) -> None:
         self.bal = bal
 
+  
     def basicinfo(self):
         print("This is the Swiss Bank")
         return "Generic bank: " + str(self.bal)
@@ -84,3 +85,15 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+# errors
+  # Function check_subclass
+    # All test cases passed.
+    
+    # Function basicinfo
+    # Swiss.basicinfo() returned an incorrect answer. Please print `Swiss Bank: ` followed by the account balance.
+    # Swiss.basicinfo() returned an incorrect answer. Check that you are not hardcoding the return value.
+
+    # Function withdraw
+    # All test cases passed.
